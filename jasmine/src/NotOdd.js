@@ -1,0 +1,3 @@
+notOdd = () => {
+  return []
+};

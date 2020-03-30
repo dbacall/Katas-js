@@ -1,9 +1,12 @@
 duplicateCount = word => {
   count = 0;
   let letterArray = [];
+  let duplicateArray = [];
   word.split("").forEach(letter => {
-    if (letterArray.includes(letter)) {
+    if (duplicateArray.includes(letter)) {
+    } else if (letterArray.includes(letter)) {
       count++;
+      duplicateArray.push(letter);
     } else {
       letterArray.push(letter);
     }

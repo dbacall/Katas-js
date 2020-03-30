@@ -9,3 +9,7 @@ it("returns 1 if there is 1 duplicate", () => {
 it("returns 2 if there are 2 duplicates", () => {
   expect(duplicateCount("speedaa")).toEqual(2);
 });
+
+it("returns 1 if there are 4 of the same letter", () => {
+  expect(duplicateCount("speedee")).toEqual(1);
+});

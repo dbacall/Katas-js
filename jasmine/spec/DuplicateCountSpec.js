@@ -13,3 +13,7 @@ it("returns 2 if there are 2 duplicates", () => {
 it("returns 1 if there are 4 of the same letter", () => {
   expect(duplicateCount("speedee")).toEqual(1);
 });
+
+it("is case insensitive", () => {
+  expect(duplicateCount("speEd")).toEqual(1);
+});

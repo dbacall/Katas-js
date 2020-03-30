@@ -2,14 +2,17 @@ duplicateCount = word => {
   count = 0;
   let letterArray = [];
   let duplicateArray = [];
-  word.split("").forEach(letter => {
-    if (duplicateArray.includes(letter)) {
-    } else if (letterArray.includes(letter)) {
-      count++;
-      duplicateArray.push(letter);
-    } else {
-      letterArray.push(letter);
-    }
-  });
+  word
+    .toLowerCase()
+    .split("")
+    .forEach(letter => {
+      if (duplicateArray.includes(letter)) {
+      } else if (letterArray.includes(letter)) {
+        count++;
+        duplicateArray.push(letter);
+      } else {
+        letterArray.push(letter);
+      }
+    });
   return count;
 };

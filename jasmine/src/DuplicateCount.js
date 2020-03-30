@@ -1,8 +1,8 @@
-duplicateCount = word => {
+duplicateCount = text => {
   count = 0;
-  let letterArray = [];
-  let duplicateArray = [];
-  word
+  letterArray = [];
+  duplicateArray = [];
+  text
     .toLowerCase()
     .split("")
     .forEach(letter => {

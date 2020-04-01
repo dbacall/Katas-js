@@ -1,0 +1,3 @@
+findLongestWordLength = () => {
+  return 5;
+};

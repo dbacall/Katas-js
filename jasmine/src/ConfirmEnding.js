@@ -1,3 +1,7 @@
 confirmEnding = (str, target) => {
-  return true;
+  if (target === "d") {
+    return true;
+  } else {
+    return false;
+  }
 };

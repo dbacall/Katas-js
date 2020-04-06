@@ -1,3 +1,5 @@
 repeatString = (str, num) => {
-  return Array(num).fill(str).join("");
+  if (num < 1) {
+    return "";
+  } else return Array(num).fill(str).join("");
 };

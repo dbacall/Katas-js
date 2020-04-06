@@ -5,3 +5,7 @@ it("repeats the string twice", () => {
 it("repeats the string three times", () => {
   expect(repeatString("abc", 3)).toEqual("abcabcabc");
 });
+
+it("returns an empty string if asked to repeat negative times", () => {
+  expect(repeatString("abc", -3)).toEqual("");
+});

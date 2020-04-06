@@ -1,3 +1,3 @@
 repeatString = (str, num) => {
-  return str + str;
+  return Array(num).fill(str).join("");
 };

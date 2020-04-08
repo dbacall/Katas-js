@@ -1,3 +1,3 @@
 truncateString = (str, num) => {
-  return "it shoul...";
+  return str.slice(0, num) + "...";
 };

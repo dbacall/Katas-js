@@ -1,0 +1,3 @@
+duplicateEncoder = () => {
+  return '(';
+};

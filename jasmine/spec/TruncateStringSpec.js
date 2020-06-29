@@ -20,7 +20,3 @@ it('returns true if racecar', () => {
 it('returns true if racecr', () => {
   expect(palindromeChecker('racecr')).toEqual(false);
 });
-
-it('returns true if 131', () => {
-  expect(palindromeChecker(131)).toEqual(true);
-});

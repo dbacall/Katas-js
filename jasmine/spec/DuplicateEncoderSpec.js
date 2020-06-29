@@ -3,5 +3,5 @@ it("returns '(' for a single letter string", () => {
 });
 
 it("returns '((' for a single letter string", () => {
-  expect(duplicateEncoder('aa')).toEqual('((');
+  expect(duplicateEncoder('ab')).toEqual('((');
 });
